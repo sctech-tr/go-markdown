@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Svelte build files
+build/
+*.svelte-kit/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+.Trash-1000/
+.fseventsd/
+.Spotlight-V100/
+
+# Svelte testing and temporary files
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+coverage/
+temp/
+
+# Other
+package-lock.json
+yarn.lock
